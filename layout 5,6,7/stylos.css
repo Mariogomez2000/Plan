@@ -1,0 +1,641 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/*layout5*/
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    border: 1px solid;
+    height: 100vh;
+    width: 400px;
+    border-radius: 20px;
+    background-image: url("img/img\ index.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+}
+.part1{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.hora{
+    color: whitesmoke;
+    align-items: center;
+    display: flex;
+    width: 23%;
+    justify-content: center;
+}
+.items{
+    width: 30%;
+    display: flex;
+    color: whitesmoke;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.part2{
+    display: flex;
+    height: 40%;
+    flex-direction: column;
+    display: flex;
+}
+.titulo{
+    display: flex;
+    color: whitesmoke;
+    height: 54px;
+    font-size: 40px;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 34px;
+    align-items: center;
+}
+.descripcion{
+    height: 37%;
+    display: flex;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+.descripcion p{
+    width: 70%;
+}
+.botones{
+    display: flex;
+    flex-direction: column;
+    height: 34%;
+    justify-content: space-between;
+}
+.registro{
+    display: flex;
+    height: 40px;
+    justify-content: center;
+}
+.registro button{
+    width: 90%;
+    border-radius: 20px;
+    color: #0072ff;
+    font-size: 15px;
+    border: none;
+}
+.login{
+    display: flex;
+    height: 40px;
+    justify-content: center;
+}
+.login button{
+    width: 90%;
+    border-radius: 20px;
+    color: whitesmoke;
+    background-color: #8585858f;
+    font-size: 15px;
+    border: none;
+}
+/*Fin layout 5*/
+
+
+/*Inicio layout 6*/
+.main1{
+    border: 1px solid;
+    height: 100vh;
+    width: 400px;
+    border-radius: 20px;
+    display: flex;
+}
+.contenedor2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.hora1{
+    align-items: center;
+    display: flex;
+    width: 23%;
+    justify-content: center;
+}
+.items1{
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.par2{
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+.login1{
+    width: 50%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    font-size: 19px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.login1 icono{
+    color: #0072ff;
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 50%; 
+}
+.l1{
+
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+}
+.text{
+    display: flex;
+}
+.text small{
+    width: 48%;
+    display: flex;
+    justify-content: center;
+    color: rgb(85, 105, 105);
+}
+.email{
+    display: flex;
+    justify-content: center;
+    height: 50%;
+}
+.caja{
+    border: 1px solid #0072ff;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+.email input{
+    border: none;
+    color: #0072ff;
+    border-radius: 10px;
+    width: 90%;
+    display: flex;
+}
+.caja1{
+    border: 1px solid #0072ff;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+.email1{
+    display: flex;
+    justify-content: center;
+    height: 50%;
+}
+.email1 input{
+    border: none;
+    color: #0072ff;
+    border-radius: 10px;
+    width: 90%;
+    display: flex;
+}
+.l2{
+    display: flex;
+}
+.texto{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+.l3{
+    display: flex;
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+}
+.buton{
+    width: 80%;
+    height: 66%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buton button{
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    border: none;
+    background-color: #0072ff;
+    color: whitesmoke;
+    font-size: x-large;
+    font-size: 16px;
+}
+.or{
+    display: flex;
+    height: 70px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: #0072ff;
+}
+.or hr{
+    width: 40%
+}
+.iconos{
+
+    height: 42px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.icono1{
+    width: 24%;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icono1 img{
+    width: 30%;
+    height: 50%;
+}
+.icono3{
+    border: 1px solid;
+    align-items: center;
+    width: 24%;
+    justify-content: center;
+    display: flex;
+}
+.icono3 img{
+    width: 30%;
+    height: 50%;
+}
+.tex{
+    height: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cajita{
+    font-size: xx-large;
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.register{
+    height: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.register button{
+    width: 80%;
+    background-color: #0073ff5e;
+    color: #0072ff;
+    height: 100%;
+    border-radius: 10px;
+    border: none;
+}
+/*fin del codigo css layout 6*/
+
+
+
+/*inicio layout 7*/
+.main2{
+    border: 1px solid;
+    height: 100vh;
+    width: 400px;
+    border-radius: 20px;
+    display: flex;
+}
+.contenedor3{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.par3{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.login3{
+    width: 43%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    font-size: 19px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.login3 icono{
+    color: #0072ff;
+}
+.foto{
+
+    width: 17%;
+    display: flex;
+}
+.foto img{
+    width: 35px;
+    border-radius: 4px;
+    height: 30px;
+}
+.container{
+    height: 28%;
+}
+.imagen{
+    display: flex;
+    justify-content: center;
+    height: 110px;
+}
+.imagen img{
+    border-radius: 10px;
+}
+.imagen icono{
+    color: green;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    display: flex;
+    height: 16%;
+    align-items: center;
+    justify-content: center;
+}
+.pais{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: darkgray;
+}
+.linea3{
+    display: flex;
+    justify-content: space-around;
+    height: 5%;
+    align-items: center;
+}
+.caj1{
+    width: 38%;
+    display: flex;
+    justify-content: center;
+}
+.caj1 icono{
+    color: #0072ff;
+}
+.caj2 icono{
+    color: #0072ff;
+}
+.caj2{
+    width: 38%;
+    display: flex;
+    justify-content: center;
+}
+.linea4{
+    height: 13%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.ca1{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.ico{
+    height: 60%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00ffc831;
+    border-radius: 5px;
+}
+.ico:hover{
+    background-color: #00ffc856;
+}
+.ico icono{
+    color: #0fffcc;
+    font-size: 40px;
+}
+.ico1{
+    height: 60%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: rgba(255, 36, 36, 0.342);
+}
+.ico1:hover{
+    background-color: rgba(255, 0, 0, 0.61);
+}
+.ico1 icono{
+    color: rgb(255, 36, 36);
+    font-size: 40px;
+}
+
+.ca3{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+.ico2{
+    height: 60%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #feb6005b;
+}
+.ico2 icono{
+    color: #feb700;
+    font-size: 40px;
+}
+.ico2:hover{
+    background-color: orange;
+}
+.p tex{
+    font-size: small;
+    color: darkgray;
+}
+.linea5{
+    height: 18%;
+    display: flex;
+    flex-direction: column;
+}
+.sec1{
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+.conta{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    height: 60%;
+}
+.com1{
+    display: flex;
+    width: 30%;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.com2{
+    width: 60%;
+    border-radius: 5px;
+    background-color: #0073ff52;
+    align-items: center;
+    color: #0072ff;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.com2:hover{
+    background-color: #0072ff;
+    color: whitesmoke;
+}
+.sec2{
+    display: flex;
+    height: 50%;
+}
+.conta2{
+    width: 90%;
+    height: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.com3{
+    display: flex;
+    width: 45%;
+    border-radius: 5px;
+    background-color: #0073ff52;
+    color: #0072ff;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.com3:hover{
+    background-color: #0072ff;
+    color: whitesmoke;
+}
+.com4:hover{
+    background-color: #0072ff;
+    color: whitesmoke;
+}
+.com4{
+    border-radius: 5px;
+    display: flex;
+    width: 27%;
+    background-color: #0073ff52;
+    color: #0072ff;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.linea6{
+    display: flex;
+    height: 6%;
+}
+.idiomas{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.lin1{
+    width: 29%;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: flex-end;
+}
+.caja-3{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.lin2{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    font-size: small;
+}
+.lin3{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    font-size: small;
+    color: #0072ff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.lin4{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    font-size: small;
+}
+.linea7{
+    display: flex;
+    height: 10%;
+    justify-content: flex-end;
+}
+.numero{
+    width: 55px;
+    position: fixed;
+    display: flex;
+    height: 55px;
+    color: white;
+    border-radius: 50px;
+    justify-content: center;
+}
+.numero icono{
+    color: #0072ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-radius: 50px;
+    font-size: 50px;
+}
+.menu{
+
+    height: 9%;
+    border-radius: 0px 0px 15px 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(235, 255, 255, 0.705);
+}
+.icono-menu{
+    width: 12%;
+    display: flex;
+    height: 66%;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    color: darkgray;
+}
+.icono-menu:hover{
+    background-color: #0072ff;
+    color: whitesmoke;
+    border-radius: 10px;
+}
